@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Resume</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+  <body>
+      <div class="container">
+        <div class="row">
+          <header class="col-sm-12">
+            <h1 class="katie">Katie Welling</h1>
+          </header>
+
+        </div>
+<!--Modal for contact information -->
+        <div class="row">
+            <div class="col-sm-4 col-sm-push-8">
+              <img src="images/kate.jpg" alt="Responsive" class="Responsive img-thumbnail">
+
+              <div class="contact">
+                <div class="modal fade" id="mymodal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+
+                        <div class="modal-body">
+<!--Form code -->
+                          <div class="form-box">
+                            <form role="form" action="" method="POST" class="margin-bottom">
+                              <h1>Contact Katie Welling</h1>
+                                <p class="margin-bottom">I would love an opportunity to have a conversation about job opportunies at your company. Please use the contact form below to send me a message, and I will get back to you as soon as I can. Thank you for taking the time to review my resume and I look forward to have further contact with you in the future.</p>
+                                  <div class="form-group ">
+                                    <input name="name" type="text" class="form-control tooltip-mod" placeholder="Enter Your Name" data-toggle="tooltip" data-placement="right" title="Enter Name" />
+                                  </div>
+                              <div class="form-group ">
+                                <input name="email" type="email" class="form-control" placeholder="Enter Your Email" />
+                              </div>
+                              <div class="form-group ">
+                                <textarea name="comment" rows="4" class="form-control" placeholder="Enter Your Message"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <button type="submit" class="btn btn-default btn-form">Send </button>
+                              </div>
+                            </form>
+                          </div>
+
+
+                          <div class="modal-footer">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<!-- contact button for modal -->
+                  <button type="button" class="btn btn-group-justified" data-toggle="modal" data-target="#mymodal">
+                    Contact
+                  </button>
+
+              </div>
+            </div>
+
+<!--Name and list of tech skills-->
+      <div class="col-sm-8 col-sm-pull-4">
+        <h2>Introduction</h2>
+          <p class="intro">I am currently a full time student at Weber State University pursuing a degree in Information Systems and Technology. I will graduate December of 2017. I am interested in getting a job in Networking Administration or in Cyber Security. I will be taking the Sercurity+ certification in the summer of 2017.</p>
+            <h2 class="tech">Tech Skills</h2>
+              <div class="float_Col1 col-sm-6">
+                <ul>
+                  <li>Virtual Machines</li>
+                  <li>Apache</li>
+                  <li>Windows Server</li>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                  <li>MySQL</li>
+                </ul>
+              </div>
+      <div class="float_Col2 col-sm-6">
+                <ul>
+                  <li>HTML</li>
+                  <li>Windows Command-line</li>
+                  <li>Windows 7 and 10</li>
+                  <li>MacOS</li>
+                  <li>Linux</li>
+                  <li>Networking</li>
+                </ul>
+      </div>
+      <!-- Education and slider-->
+          <div class="row">
+            <div class="ed">
+              <h2 class="education">Education</h2>
+                <h3 class="ist">Bachelors of Science in Information Systems</h3>
+                  <p class="school">Goddard School of Business and Economics-Ogden Utah</p>
+                  <p class="date">December 2017</p>
+                  <p class="accred">AACSB Accredited (Top 6% of Business Schools in the World)</p>
+            </div>
+
+
+          <!--slider-->
+          <div class="col-sm-12 slider">
+            <h2>References</h2>
+            <div id="my-slider" class="carousel slide" data-ride="carousel">
+                          <!--indicators dot nav -->
+              <ol class="carousel-indicators">
+                <li data-target="#my-slider" data-slide-to="0"></li>
+                <li data-target="#my-slider" data-slide-to="1"></li>
+              </ol>
+                          <!-- wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <div class="blockquote">
+                  <h3 class="rhonda">Rhonda</h3>
+                    <p>Store manager at Walmart store 1788</p>
+                      <blockquote>
+                        <p>"Katie is a hard worker who gives 100% effort every day. She is a team player who can work with anyone. We love working with her here at Walmart."</p>
+
+                      </blockquote>
+                </div>
+              </div>
+              <div class="item">
+                <div class="blockquote">
+                  <h3 class="jeanie">Jeanie Wilson</h3>
+                    <p>Professor at Weber State</p>
+                      <blockquote>
+                        <p>"Katie has a very good work ethic and will put in the effort in each project. She is knowledgable in the skills of cyber security. She has always been a fast learner, eager to add to her skill set. Katie would be an asset to any project."</p>
+
+                      </blockquote>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            </div>
+
+    </div>
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
